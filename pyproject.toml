@@ -58,7 +58,7 @@ where = ["."]
 include = ["aiida_scheduler", "aiida_scheduler.*"]
 
 [tool.setuptools.package-data] # Corrected from [tool.uptools.package-data]
-aiida_scheduler = ["static/*", "static/**/*"]
+aiida_scheduler = ["backend/static/*", "backend/static/**/*"]
 
 [tool.setuptools.dynamic]
 version = { attr = "aiida_scheduler.__version__" }
